@@ -26,6 +26,26 @@ GCP offers several kinds of data flow and pipline services.
 - **Composer**: Managed workflow orchestration service based on Apache Airflow for authoring, scheduling, and monitoring workflows.
   - **Tech Stack**:  Apache Airflow
 
+## Comparision Tech Stack
+
+**Apache Airflow**:
+
+- **Purpose**: Orchestrate workflows using Directed Acyclic Graphs (DAGs).
+- **Features**: Task scheduling, dependency management, monitoring.
+- **Tech Stack**: Python-based, supports various databases.
+
+**Apache Beam**:
+
+- **Purpose**: Unified programming model for data processing pipelines.
+- **Features**: Batch and stream processing, windowing, stateful processing.
+- **Tech Stack**: Primarily Java-based, supports multiple languages and execution engines.
+
+**Apache Nifi**:
+
+- **Purpose**: Data ingestion, routing, transformation, and delivery.
+- **Features**: Visual flow-based programming, data provenance, real-time processing.
+- **Tech Stack**: Java-based, web-based UI, supports various data sources and sinks.
+
 
 ## Usage
 
