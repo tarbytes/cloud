@@ -28,11 +28,6 @@ GCP offers several kinds of data flow and pipline services.
 
 ## Comparision Tech Stack
 
-**Apache Airflow**:
-
-- **Purpose**: Orchestrate workflows using Directed Acyclic Graphs (DAGs).
-- **Features**: Task scheduling, dependency management, monitoring.
-- **Tech Stack**: Python-based, supports various databases.
 
 **Apache Beam**:
 
@@ -46,6 +41,11 @@ GCP offers several kinds of data flow and pipline services.
 - **Features**: Visual flow-based programming, data provenance, real-time processing.
 - **Tech Stack**: Java-based, web-based UI, supports various data sources and sinks.
 
+**Apache Airflow**:
+
+- **Purpose**: Orchestrate workflows using Directed Acyclic Graphs (DAGs).
+- **Features**: Task scheduling, dependency management, monitoring.
+- **Tech Stack**: Python-based, supports various databases.
 
 ## Usage
 
