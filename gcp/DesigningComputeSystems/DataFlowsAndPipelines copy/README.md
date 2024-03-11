@@ -1,24 +1,31 @@
-# Data Flows & Pipelines
+# Data Flow and Pipelines
 
-Explore Google Cloud's managed services for data flows and piplines.
+Explore Google Cloud's managed services for data flows and pipelines.
 
 ## Overview
 
-Discover scalable and reliable solutions tailored for large datasets and ML tasks.
+GCP offers several kinds of data flow and pipline services.
 
 ## Included Cloud Services
 
-- **Pub/Sub**: Real-time and batch data processing at scale.
+- **Pub/Sub**: Scalable and reliable messaging service for asynchronous communication between applications and services.
+  - **Tech Stack**:  Apache Kafka
+  
+- **Dataflow**: Fully managed service for real-time and batch data processing using Apache Beam.
+  - **Tech Stack**:  Apache Beam
+  
+- **Dataproc**: Fully managed Apache Spark and Hadoop service for big data processing.
+  - **Tech Stack**:  Apache Spark, Apache Hadoop
+  
+- **Workflow**: Workflow orchestration service for coordinating and managing complex tasks and dependencies.
+  - **Tech Stack**:  Apache Airflow, Kubernetes
+  
+- **Data Fusion**: Fully managed, code-free data integration service for building and managing data pipelines.
+  - **Tech Stack**:  Apache Nifi, Apache Kafka
+  
+- **Composer**: Managed workflow orchestration service based on Apache Airflow for authoring, scheduling, and monitoring workflows.
+  - **Tech Stack**:  Apache Airflow
 
-- **Dataflow**: Real-time and batch data processing at scale.
-
-- **Dataproc**: Managed Apache Hadoop and Spark clusters.
-
-- **Workflow**: Managed Apache Hadoop and Spark clusters.
-
-- **Datfusion**: Managed Apache Hadoop and Spark clusters.
-
-- **Composer**: Managed Apache Hadoop and Spark clusters.
 
 ## Usage
 
